@@ -11,7 +11,7 @@ import { BodyBuilderService } from 'src/app/explorer/filters/services/bodyBuilde
   selector: 'app-main-list',
   templateUrl: '../list.component.html',
   styleUrls: ['../list.component.scss'],
-  providers: [ScrollHelperService],
+  providers: [ScrollHelperService, SelectService],
 })
 export class MainListComponent extends ListComponent {
 
